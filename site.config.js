@@ -1,13 +1,13 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: '098bba12be3947a69e9c9055c80bb026',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '184a32f9-15eb-4ae1-bb74-6be35f92214b',
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
+  name: "Seongjin's Blog",
   domain: 'transitivebullsh.it',
   author: 'Travis Fischer',
 

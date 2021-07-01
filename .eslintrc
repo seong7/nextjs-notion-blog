@@ -19,9 +19,7 @@
       "extends": [
         "standard",
         "standard-react",
-        "plugin:prettier/recommended",
-        "prettier/standard",
-        "prettier/react"
+        "plugin:prettier/recommended"
       ],
       "env": { "node": true },
       "rules": {
@@ -42,9 +40,7 @@
         "plugin:@typescript-eslint/recommended",
         "standard",
         "standard-react",
-        "plugin:prettier/recommended",
-        "prettier/standard",
-        "prettier/react"
+        "plugin:prettier/recommended"
       ],
       "env": { "browser": true, "node": true },
       "rules": {
