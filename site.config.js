@@ -9,17 +9,16 @@ module.exports = {
   // basic site info (required)
   name: 'SEONGJINKIM',
   domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
+  author: 'Seongjin Kim',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  description: "Seongjin's Tech Blog",
+  socialImageTitle: 'Seongjin Kim',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'seong7',
+  linkedin: 'seongjin-kim-b3651312a',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
