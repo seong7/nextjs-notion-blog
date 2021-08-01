@@ -1,28 +1,28 @@
-import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
-import * as config from 'lib/config'
+import * as React from 'react';
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5';
+import * as config from 'lib/config';
 
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 // TODO: merge the data and icons from PageSocial with the social links in Footer
 
 export const Footer: React.FC<{
-  isDarkMode: boolean
-  toggleDarkMode: () => void
+  isDarkMode: boolean;
+  toggleDarkMode: () => void;
 }> = ({ isDarkMode, toggleDarkMode }) => {
-  const [hasMounted, setHasMounted] = React.useState(false)
+  const [hasMounted, setHasMounted] = React.useState(false);
   const toggleDarkModeCb = React.useCallback(
     (e) => {
-      e.preventDefault()
-      toggleDarkMode()
+      e.preventDefault();
+      toggleDarkMode();
     },
-    [toggleDarkMode]
-  )
+    [toggleDarkMode],
+  );
 
   React.useEffect(() => {
-    setHasMounted(true)
-  }, [])
+    setHasMounted(true);
+  }, []);
 
   return (
     <footer className={styles.footer}>
@@ -30,11 +30,7 @@ export const Footer: React.FC<{
 
       {hasMounted ? (
         <div className={styles.settings}>
-          <a
-            className={styles.toggleDarkMode}
-            onClick={toggleDarkModeCb}
-            title='Tottle dark mode'
-          >
+          <a className={styles.toggleDarkMode} onClick={toggleDarkModeCb} title='Tottle dark mode'>
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
         </div>
@@ -78,5 +74,5 @@ export const Footer: React.FC<{
         )}
       </div>
     </footer>
-  )
-}
+  );
+};

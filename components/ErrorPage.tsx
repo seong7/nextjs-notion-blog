@@ -1,11 +1,11 @@
-import React from 'react'
-import Head from 'next/head'
-import { PageHead } from './PageHead'
+import React from 'react';
+import Head from 'next/head';
+import { PageHead } from './PageHead';
 
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 export const ErrorPage: React.FC<{ statusCode: number }> = ({ statusCode }) => {
-  const title = 'Error'
+  const title = 'Error';
 
   return (
     <>
@@ -28,5 +28,5 @@ export const ErrorPage: React.FC<{ statusCode: number }> = ({ statusCode }) => {
         </main>
       </div>
     </>
-  )
-}
+  );
+};

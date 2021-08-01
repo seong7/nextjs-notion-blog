@@ -1,15 +1,11 @@
-import * as React from 'react'
-import cs from 'classnames'
-import styles from './styles.module.css'
+import * as React from 'react';
+import cs from 'classnames';
+import styles from './styles.module.css';
 
 export const LoadingIcon = (props) => {
-  const { className, ...rest } = props
+  const { className, ...rest } = props;
   return (
-    <svg
-      className={cs(styles.loadingIcon, className)}
-      {...rest}
-      viewBox='0 0 24 24'
-    >
+    <svg className={cs(styles.loadingIcon, className)} {...rest} viewBox='0 0 24 24'>
       <defs>
         <linearGradient
           x1='28.1542969%'
@@ -19,11 +15,7 @@ export const LoadingIcon = (props) => {
           id='linearGradient-1'
         >
           <stop stopColor='rgba(164, 164, 164, 1)' offset='0%' />
-          <stop
-            stopColor='rgba(164, 164, 164, 0)'
-            stopOpacity='0'
-            offset='100%'
-          />
+          <stop stopColor='rgba(164, 164, 164, 0)' stopOpacity='0' offset='100%' />
         </linearGradient>
       </defs>
 
@@ -57,5 +49,5 @@ export const LoadingIcon = (props) => {
         </g>
       </g>
     </svg>
-  )
-}
+  );
+};

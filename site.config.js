@@ -7,7 +7,7 @@ module.exports = {
   rootNotionSpaceId: '184a32f9-15eb-4ae1-bb74-6be35f92214b',
 
   // basic site info (required)
-  name: "Seongjin's Blog",
+  name: 'SEONGJINKIM',
   domain: 'transitivebullsh.it',
   author: 'Travis Fischer',
 
@@ -47,5 +47,5 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
-}
+  pageUrlOverrides: null,
+};
