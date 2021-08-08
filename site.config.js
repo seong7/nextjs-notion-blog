@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'SEONGJINKIM',
-  domain: 'transitivebullsh.it',
+  domain: 'notion-blog-seong7.vercel.app',
   author: 'Seongjin Kim',
 
   // open graph metadata (optional)
